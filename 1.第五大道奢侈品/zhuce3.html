@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="zhuce3.css" />
+		<link rel="stylesheet" type="text/css" href="public.css" />
+		<script src="jquery-1.11.1.min.js"></script>
+		
+	</head>
+	<body>
+		<div id="tu">
+	      	<img class="f1" src="imgs/3.jpg"  />
+	      	<img class="f2" src="imgs/5.jpg"  />
+	      	<p>客服热线：400-8777-6549</p>
+        </div>
+        
+        <div id="deng">
+			<div id="table">
+        		<h1>注册第五大道</h1>
+        		<input class="inp" type="text" value="" placeholder="手机号"/><br>
+        		<input id="in" type="text" value="" placeholder="请输入验证码"/><p>获取验证码</p><br>
+        		<input class="inp" type="password" value="" placeholder="请输入密码"/><br>
+        		<input class="inp" type="password" value="" placeholder="确认密码"/><br>
+        		<input class="inp" id="ip" type="submit" value="立即注册" /><br>
+        	</div>
+        </div>
+        <div id="dd"></div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="helo">
+      	<div id="red">
+      		<img src="imgs/x3.jpg" />
+      	</div>
+      </div>
+      <div id="news">
+	      	<div id="wei">
+	      		<div id="ding">
+	      			<h1>NEWS</h1>
+	      			<p>订阅时尚资讯及最新优惠信息</p>
+	      			<input type="text" value="" /><a href="#"><img src="imgs/x4.jpg"/></a>
+	      		</div>
+	      	
+	      	<div id="mg">
+		      	<img id="d1" src="imgs/x5.jpg"/>
+		      	<img id="d2" src="imgs/x5.jpg"/>
+		      	<img id="d3" src="imgs/x6.jpg"/>
+		      	<img id="oo" src="imgs/x7.jpg"/>
+	      	</div>
+         </div>
+      </div>
+      <div id="ss">
+      	<div id="cc">
+      		<div>
+		      	<a href="#"><img src="imgs/x8.jpg" /></a>
+		      	<a href="#"><p>品牌授权</p></a>
+	      	</div>
+	      	<div>
+		      	<a href="#"><img src="imgs/x8.jpg" /></a>
+		      	<a href="#"><p>品牌授权</p></a>
+	      	</div>
+	      	<div>
+		      	<a href="#"><img src="imgs/x8.jpg" /></a>
+		      	<a href="#"><p>品牌授权</p></a>
+	      	</div>
+	      	<div>
+		      	<a href="#"><img src="imgs/x8.jpg" /></a>
+		      	<a href="#"><p>品牌授权</p></a>
+	      	</div>
+      	</div>
+      </div>
+      <div id="a1">
+      	<ul>
+      		<li><a id="t1"  href="#">关于第五大道</a></li>
+      		<li><a href="#">友情链接</a></li>
+      		<li><a href="#">网站地图</a></li>
+      		<li><a href="#">加入我们</a></li>
+      		<li><a href="#">友情链接</a></li>
+      		<li><a href="#">网站地图</a></li>
+      		<li><a href="#">加入我们</a></li>
+      		<li><a href="#">友情链接</a></li>
+      		<li><a href="#">网站地图</a></li>
+      		<li><a href="#">加入我们</a></li>
+      		<li><a href="#">友情链接</a></li>
+      		<li><a href="#">网站地图</a></li>
+      		<li><a href="#">加入我们</a></li>
+      		<li><a href="#">友情链接</a></li>
+      		<li><a href="#">网站地图</a></li>
+      		<li><a href="#">加入我们</a></li>
+      	</ul>
+      </div>
+      <div id="bottom">
+      	<p>
+      		Copyright © 2008-2016 瑞美嘉信国际信息技术（北京）有限公司&nbsp; 版权所有京ICP备09012701号-1
+                                京公网安备110105007400号 食品经营许可证号：
+        </p>
+        <a href="#"><img id="ft" src="imgs/c1.jpg"/><img src="imgs/x9.jpg"/></a>
+      </div>
+	
+
+
+	</body>
+</html>
+<script>
+	
+	 $("input").blur(function(){
+		var reg=/^1[34578]\d{9}$/;
+		var str=$("inp").val();
+		if( !reg.test( str ) ){
+			alert("用户名不合法");
+		   }
+		})
+		
+		
+	})
+</script>
